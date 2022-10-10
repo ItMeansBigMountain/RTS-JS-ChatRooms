@@ -103,3 +103,17 @@ DEPLOY IMAGE TO AZURE APP SERVICE
                 Value = 80
 
 
+
+
+
+
+
+STEPS
+    - create flask app
+    - created Azure container registry
+    - took registry access keys and logged into docker cli
+    - built a docker container image
+    - make sure image runs locally
+    - pushed image to Azure container
+    - deployed Azure container image to Azure App Service
+    - changed the WEBSITES_PORT variable to match the docker listener/app host port
