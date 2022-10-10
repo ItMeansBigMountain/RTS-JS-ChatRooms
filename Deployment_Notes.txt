@@ -1,0 +1,20 @@
+SIGN IN to Azure using VS Code
+    'CTRL + SHIFT + P'
+    'azure: sign in'
+
+AZURE PORTAL
+    create resoruce
+    search --> 'container registry'
+    create container
+
+
+GET ACCESS KEYS
+    open recent container made
+    side navbar --> access keys 
+    copy username and password (make sure admin is switched on)
+
+DOCKER LOGIN 
+    "C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchDaemon
+    'docker login NAME_OF_CONTAINER_LOGIN_SERVER'
+        ex: 'docker login oyamachat.azurecr.io'
+
